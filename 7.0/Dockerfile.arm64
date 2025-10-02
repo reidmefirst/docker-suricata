@@ -83,6 +83,8 @@ RUN ./configure \
         --enable-geoip \
         --enable-ebpf \
 	--enable-dpdk \
+	--enable-profiling \
+	--enable-profiling-rules \
         ${CONFIGURE_ARGS}
 
 ARG CORES=2
